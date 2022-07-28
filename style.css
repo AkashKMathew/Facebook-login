@@ -1,0 +1,48 @@
+:root{
+    text-size-adjust: auto;
+}
+#topDiv{
+    background: rgb(38, 38, 143);
+    height: 6rem;
+}
+#logoDiv{
+    margin: auto;
+}
+#tb{
+    margin: auto;
+}
+#logo{
+    color: white;
+    font-weight: 700;
+}
+.emailPass{
+    color: white;
+    font-size: .7rem;
+}
+.butn{
+    margin-left: .2rem;
+}
+.secDiv{
+    margin-left: -.8rem;
+    margin-right: -.8rem;
+    height: 77rem;
+    background-image: linear-gradient(white,rgb(196, 196, 230));
+}
+.picDiv{
+    padding: 1rem;
+}
+#para{
+    font-size: 2rem;
+    color: rgb(38, 38, 143);
+    font-weight: 500;
+}
+#loginPic{
+    width: 100%;
+}
+.padds{
+    padding: .8rem;
+}
+#CheckPasswordMatch{
+    color: red;
+    margin-left: 1rem;
+}

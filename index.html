@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" id="topDiv">
+            <div class="col-5 col-lg-6" id="logoDiv">
+                <h1 id="logo">Facebook</h1>
+            </div>
+            <div class="col-7 col-lg-6">
+                <table id="tb">
+                    <thead class="emailPass">
+                        <tr>
+                            <th>Email/Ph</th>
+                            <th>Password</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></td>
+                            <td><input type="password" class="form-control" id="exampleInputPassword1" ></td>
+                            <td><button class="btn btn-sm btn-primary butn">Login</button></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><a href="#" style="font-size: .7rem;">Forgot password?</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="bg-light d-xl-flex secDiv">
+            <div class="col-12 col-xl-6 picDiv">
+                <p id="para">Facebook helps you connect and share with the people in your life.</p>
+                <img id="loginPic" src="FB-login-1pic.png">
+            </div>
+            <div class="col-12 col-xl-6 padds">
+                <h1 class="picDiv">Create an account</h1>
+                <h3 class="picDiv">It's free and always will be.</h3>
+                <form id="signupForm">
+                    <div class="row padds">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="First name" name="fname">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name" name="sname">
+                        </div>
+                    </div>
+                    <div class="form-group padds">
+                        <input name="emailadd" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group padds">
+                        <input name="password1" type="password" class="form-control" id="password1" placeholder="Password">
+                    </div>
+                    <div class="form-group padds">
+                        <input name="password2" type="password" class="form-control" id="password2" placeholder="Confirm password">
+                    </div>
+                    <label for="" id="CheckPasswordMatch"></label>
+                    <div class="form-row align-items-center" style="padding-left: 1rem;">
+                        <div class="col-auto my-1">
+                            <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Date of birth</label>
+                            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" name="day">
+                                <option value="">Day</option>
+                                <option value="1">01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                            </select>
+                            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" name="month">
+                                <option value="">Month</option>
+                                <option value="1">01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                            </select>
+                            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" name="year">
+                                <option value="">Year</option>
+                                <option value="1">2001</option>
+                                <option value="2">2002</option>
+                                <option value="3">2003</option>
+                            </select>
+                            <a href="#">Why I need to provide my date of birth?</a>
+                        </div>
+
+                    </div>
+                    <div class="picDiv">
+                        <div class="form-check form-check-inline ">
+                            <input class="form-check-input" type="radio" name="gender" id="inlineRadio1"
+                                value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="inlineRadio2"
+                                value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Female</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="inlineRadio3"
+                                value="option3">
+                            <label class="form-check-label" for="inlineRadio3">Custom</label>
+                        </div>
+                        <br>
+                        <small id="emailHelp" class="form-text text-muted">
+                            <p>By clicking create an account you agree our <a href="#">Terms</a> and that you have read
+                                our <a href="#">Data policy</a> including our <a href="#">cookie use</a>.</p>
+                        </small>
+                        <div>
+                            <button type="submit" class="btn btn-success">Create an account</button>
+                        </div>
+                        <p style="padding-top: 1rem;"><a href="#">Create a page</a> for a celebrity, band or business
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
